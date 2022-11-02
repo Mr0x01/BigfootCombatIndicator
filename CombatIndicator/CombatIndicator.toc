@@ -1,4 +1,4 @@
-## Interface: 90002
+## Interface: 100000
 ## Title: CombatIndicator
 ## Title-zhCN: 战斗指示器 [Return提取]
 ## Title-zhTW: 戰鬥指示器 [Return提取]
