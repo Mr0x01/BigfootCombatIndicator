@@ -431,7 +431,7 @@ function C:COMBAT_LOG_EVENT_UNFILTERED(...)
     if not config.spell then return end
     local timestamp, event, hideCaster, sourceGUID, sourceName, sourceFlags,
           sourceFlags2, destGUID, destName, destFlags, destFlags2, auraId,
-          auraName = CombatLogGetCurrentEventInfo();
+          auraName = CombatLogGetCurrentEntry();
     if event == "SPELL_CAST_START" then
         local fromEnemy
         if sourceFlags and

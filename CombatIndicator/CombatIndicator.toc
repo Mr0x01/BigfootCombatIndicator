@@ -1,4 +1,4 @@
-## Interface: 100000
+## Interface: 33500
 ## Title: CombatIndicator
 ## Title-zhCN: 战斗指示器 [Return提取]
 ## Title-zhTW: 戰鬥指示器 [Return提取]
@@ -6,6 +6,18 @@
 ## Notes-zhCN: |cff00ff00CombatIndicator|r|n|cffbc8f8f当你进行战斗时会在身边跳出你所受伤害的数字。|r
 ## Notes-zhTW: |cff00ff00CombatIndicator|r|n|cffbc8f8f當你進行戰鬥時會在身邊跳出你所受傷害的數字。|r
 ## SavedVariables: CombatIndicator_Config
+## OptionalDeps: Ace3
+
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceHook-3.0\AceHook-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
 
 AnimLib.lua
 CombatIndicator.xml
